@@ -1,4 +1,2 @@
 #!/bin/bash
-clear 
-
-cut -d: f1 /etc/passwd
+ls -l $1 | cut -c8-10
